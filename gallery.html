@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="gallery.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Gallery</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="./index.html">About Me</a></li>
+                <li><a href="./hobbies.html">Hobbies</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Rhona Abatteng</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="./index.html" onclick="toggleMenu()">About Me</a></li>
+                <li><a href="./hobbies.html" onclick="toggleMenu()">Hobbies</a></li>
+                <li><a href="./gallery.html" onclick="toggleMenu()">Gallery</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <div class="gallery">
+        <div class="gallery-container">
+            <div class="image"><img src="https://images.pexels.com/photos/96428/pexels-photo-96428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""></div>
+            <div class="image"><img src="https://images.pexels.com/photos/177809/pexels-photo-177809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""></div>
+            <div class="image"><img src="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""></div>
+            <div class="image"><img src="https://images.pexels.com/photos/220938/pexels-photo-220938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""></div>
+            <div class="image"><img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""></div>
+            <div class="image"><img src="https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""></div>
+        </div>
+        <div class="image-onclick">
+            <img src="https://images.pexels.com/photos/96428/pexels-photo-96428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'" alt="">
+        </div>
+    </div>
+
+
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="./index.html">About Me</a></li>
+                    <li><a href="./hobbies.html">Hobbies</a></li>
+                    <li><a href="/gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <script src="gallery.js"></script>
+</body>

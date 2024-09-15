@@ -7,19 +7,19 @@ const imageSets = [
         'https://res-r.qingjiaota.com/image/notice/1725416629175.png'
     ],
     [
-        'https://images.pexels.com/photos/220938/pexels-photo-220938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        'https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+        './assets/books1.jpg',
+        './assets/books2.jpg',
+        './assets/books3.jpg'
     ],
     [
-        'https://thumb.ac-illust.com/0d/0d1b6ea5315c273655cc8756bb683521_t.jpeg',
-        'https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg?auto=compress&cs=tinysrgb&w=600',
-        'https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+        './assets/puzzle1.jpg',
+        './assets/puzzles2.png',
+        './assets/puzzles3.png'
     ],
     [
         './assets/Cyclops_Saga2.jpg',
-        'https://i.scdn.co/image/ab67616d0000b273f539f9a64d5603185f70e02b',
-        'https://images.pexels.com/photos/906982/pexels-photo-906982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+        './assets/music2.jpg',
+        './assets/music3.png'
     ]
 ];
 
